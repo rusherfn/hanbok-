@@ -16,7 +16,7 @@
 <body>
   <header>
     <div class="container">
-      <div class="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></div>
+      <div class="logo"><a href="./index.html"><img src="./images/main/logo.png" alt="logo"></a></div>
       <ul class="nav">
         <li><a href="./info.html">소개</a></li>
         <li><a href="#">갤러리</a></li>
@@ -41,17 +41,16 @@
   </div>
 
   <!-- content_01 -->
-
   <div class="content_01">
     <div class="container">
       <div class="title">
         <h3>로그인</h3>
-        <p>아름다움을 디자인하다, 결혼, 어머니, 돌,가족 한복대여맞춤 전문,10개 매장운영</p>
+        <p>할인 이벤트와 행사정보 등을 빠르게 만나보실 수 있습니다.</p>
       </div>
-      <form>
+      <form class="login_form">
         <input type="text" placeholder="아이디">
         <input type="password" placeholder="비밀번호">
-        <div class="extra">
+        <div class="btns">
         <label>
           <input type="checkbox"><span> 아이디 저장</span>
         </label>
@@ -65,10 +64,10 @@
       <div class="social">
         <h4>소셜 아이디로 로그인</h4>
         <div class="social_btns">
-          <a href="#"><img src="./images/icno_01.png" alt="icon"></a>
-          <a href="#"><img src="./images/icon_02.png" alt="icon"></a>
-          <a href="#"><img src="./images/icon_03.png" alt="icon"></a>
-          <a href="#"><img src="./images/icon_04.png" alt="icon"></a>
+          <a href="#"><img src="./images/main/icno_01.png" alt="icon"></a>
+          <a href="#"><img src="./images/main/icon_02.png" alt="icon"></a>
+          <a href="#"><img src="./images/main/icon_03.png" alt="icon"></a>
+          <a href="#"><img src="./images/main/icon_04.png" alt="icon"></a>
         </div>
       </div>
     </div>
@@ -77,7 +76,7 @@
   <footer>
     <div class="container">
       <div class="box_01">
-        <div class="logo"><img src="./images/footer_logo.png" alt="logo"></div>
+        <div class="logo"><img src="./images/main/footer_logo.png" alt="logo"></div>
         <div class="policy">
           <a href="#">개인정보보호방침</a>
           <a href="#">서비스이용약관</a>
@@ -127,7 +126,8 @@
     // 슬라이드
      $('.slide_01').slick({
        autoplay: true,
-       autoplaySpeed: 5000
+       autoplaySpeed: 5000,
+       fade: true
      })
 
   </script>

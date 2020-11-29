@@ -22,15 +22,15 @@
 }
 
 .slide_01 .item.item_01 {
-  background-image: url(../images/lental1.jpg);
+  background-image: url(../images/banner_04.jpg);
 }
 
 .slide_01 .item.item_02 {
-  background-image: url(../images/thumb_02.png);
+  background-image: url(../images/banner_02.jpg);
 }
 
 .slide_01 .item.item_03 {
-  background-image: url(../images/slide3.jpg);
+  background-image: url(../images/banner_03.jpg);
 }
 
 /* content_01 */
@@ -60,34 +60,34 @@
   margin-bottom: 70px;
 }
 
-form {
+.login_form {
   display: flex;
   flex-direction: column;
   width: 690px;
   margin: 0 auto;
 }
 
-form input {
+.content_01 form input {
   width: 690px;
   height: 80px;
   border: 1px solid var(--main);
 }
 
-form input[type='text'],
-form input[type='password'] {
+.content_01 form input[type="text"],
+.content_01 form input[type="password"] {
   box-sizing: border-box;
   margin-bottom: 20px;
   padding: 28px 38px;
   outline: none;
 }
 
-form input[type='checkbox'] {
+.content_01 form input[type="checkbox"] {
   width: 20px;
   height: 20px;
 }
 
-form input[type='text']::placeholder,
-form input[type='password']::placeholder {
+.content_01 form input[type="text"]::placeholder,
+.content_01 form input[type="password"]::placeholder {
   font-size: 20px;
   color: #8b8b8b;
 }
@@ -101,11 +101,14 @@ form label span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.btns {
   margin-bottom: 50px;
 }
 
-.extra a {
-  font-size-adjust: 20px;
+.btns a {
+  font-size: 20px;
   color: var(--accent1);
 }
 
