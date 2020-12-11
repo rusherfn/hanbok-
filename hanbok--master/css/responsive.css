@@ -94,6 +94,7 @@
   .content_02 .cards {
     display: block;
     /* flex-direction: column; */
+
     justify-content: center;
    margin-bottom: 0;
   }
